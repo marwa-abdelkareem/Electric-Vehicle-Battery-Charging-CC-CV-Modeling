@@ -1,34 +1,46 @@
-This project presents a Simulink-based model for Electric Vehicle (EV) battery charging using the Constant Current–Constant Voltage (CC-CV) charging methodology.
+# 🔋 EV Battery Charging (CC-CV) Model in Simulink
 
-The CC-CV strategy is widely used in lithium-ion battery charging systems to ensure safe, efficient, and controlled energy transfer while maintaining battery health and extending lifecycle performance.
+## 📌 Overview
 
-The model simulates both charging stages:
+This project presents a MATLAB Simulink model for Electric Vehicle (EV) battery charging using the Constant Current–Constant Voltage (CC-CV) method.
 
-Constant Current (CC) mode – where the battery is charged at a regulated current until the maximum voltage threshold is reached.
-Constant Voltage (CV) mode – where the voltage is maintained constant while the charging current gradually decreases.
+## ⚙️ Charging Stages
 
-Key Features:
+* **CC Mode:** Constant current charging until voltage limit
+* **CV Mode:** Constant voltage with decreasing current
 
-• Implementation of CC-CV charging control strategy
-• Lithium-ion battery charging simulation
-• Dynamic transition between CC and CV modes
-• Simulink-based system modeling
-• Performance evaluation under standard charging conditions
-• Voltage and current profile analysis
+## 🖼️ Simulation Results
 
-Applications:
+![Output Signals](output signals.png)
 
-• Electric Vehicle battery management systems (BMS)
-• Power electronics and charging system design
-• Renewable energy storage systems
-• Battery performance analysis
-• Engineering education and simulation studies
+## 🧠 Features
 
-Software Requirements:
+* CC-CV control implementation
+* Lithium-ion battery model
+* Smooth transition between charging modes
+* Voltage & current analysis
 
-• MATLAB
-• Simulink
-A step-by-step video tutorial explaining the model implementation and simulation results is available at:
+## 🚗 Applications
+
+* EV Battery Management Systems (BMS)
+* Charging station design
+* Renewable energy storage
+
+## 🛠️ Tools
+
+* MATLAB
+* Simulink
+
+## ▶️ How to Run
+
+1. Open `EVchargerCVCC.slx`
+2. Run simulation
+3. Observe current & voltage
+
+## 🎥 Tutorial
+
 https://www.youtube.com/watch?v=zZ1ymTjzyBU
 
-This model can be extended to include advanced Battery Management System (BMS) features such as State of Charge (SOC) estimation, thermal modeling, and adaptive charging control algorithms.
+## 👩‍💻 Author
+
+Marwa Abdelkareem
