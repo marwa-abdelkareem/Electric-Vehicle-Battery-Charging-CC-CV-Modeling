@@ -1,4 +1,9 @@
 # 🔋 EV Battery Charging (CC-CV) Model in Simulink
+## 🔋 EV Charging System Architecture (Solar + Vehicle Integration)
+
+<p align="center">
+  <img src="Block Diagram1.png" width="850"/>
+</p>
 
 ## 📌 Overview
 
@@ -9,9 +14,13 @@ This project presents a MATLAB Simulink model for Electric Vehicle (EV) battery 
 * **CC Mode:** Constant current charging until voltage limit
 * **CV Mode:** Constant voltage with decreasing current
 
-## 🖼️ Simulation Results
 
-![Output Signals](output signals.png)
+
+## 📊 EV Battery Charging Output Signals (CC-CV Behavior)
+
+<p align="center">
+  <img src="output signals.png" width="850"/>
+</p>
 
 ## 🧠 Features
 
