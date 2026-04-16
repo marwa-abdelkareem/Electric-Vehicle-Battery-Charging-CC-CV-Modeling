@@ -1,8 +1,5 @@
 # EV Battery Charging System (CC–CV) – MATLAB/Simulink
 
-<p align="center">
-  <img src="Block Diagram1.png" width="750"/>
-</p>
 
 ## Project Summary
 
