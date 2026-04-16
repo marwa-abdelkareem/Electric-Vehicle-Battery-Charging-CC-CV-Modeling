@@ -111,11 +111,16 @@ https://www.youtube.com/watch?v=zZ1ymTjzyBU
 
 ---
 
-## Related Projects
+## Engineering Insight
 
-- Solar PV MPPT Boost Converter System  
-- Lithium Battery Thermal Modeling  
-- Off-Grid PV System Design  
+The CC–CV charging strategy is widely used in EV systems to balance:
+- Fast charging requirements (CC mode)
+- Battery safety constraints (CV mode)
+
+This implementation ensures:
+- Protection against overvoltage
+- Controlled current decay during final charging stage
+- Improved battery lifespan
 
 ---
 
